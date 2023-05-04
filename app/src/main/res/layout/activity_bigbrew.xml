@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7EEF6"
+    tools:context=".bigbrew">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bigbrew_wallpaper"
+        android:textColor="@color/white" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/milktea_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#E7EEF6"
+                android:text="Milk Tea"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <Button
+                android:id="@+id/coffee_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#E7EEF6"
+                android:text="Coffee"
+                android:textColor="@android:color/holo_orange_dark" />
+
+            <Button
+                android:id="@+id/praf"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="#E7EEF6"
+                android:text="Praf"
+                android:textColor="@android:color/holo_orange_dark" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1500dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/okinawa" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Okinawa"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="-140dp"
+                app:srcCompat="@drawable/wintermelon" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="260dp"
+                android:text="Wintermelon"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/red_velvet" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Red Velvet"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="-140dp"
+                app:srcCompat="@drawable/matcha" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:text="Matcha"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/double_dutch"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Double Dutch"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"/>
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="150dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/cheese_cake"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="-140dp"/>
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Cheese Cake"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="255dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DeliverEase</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="signup">Signup</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="email_signup">Email</string>
+    <string name="password_signup">Password</string>
+    <string name="name">Name</string>
+    <string name="create_account">Create Account</string>
+</resources>
